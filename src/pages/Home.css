@@ -1,0 +1,31 @@
+/* Home.css */
+
+/* Keyframe animation to change color and size */
+@keyframes colorSizeChange {
+    0% {
+      color: #ff6f61;  /* Initial color */
+      font-size: 3rem;  /* Initial size */
+    }
+    25% {
+      color: #4caf50;  /* Change to green */
+      font-size: 3.5rem;  /* Increase size */
+    }
+    50% {
+      color: #2196f3;  /* Change to blue */
+      font-size: 4rem;  /* Increase size more */
+    }
+    75% {
+      color: #ff9800;  /* Change to orange */
+      font-size: 4.5rem;  /* Increase size further */
+    }
+    100% {
+      color: #ff6f61;  /* Return to initial color */
+      font-size: 3rem;  /* Return to initial size */
+    }
+  }
+  
+  /* Apply the animation to the heading */
+  .animated-heading {
+    animation: colorSizeChange 5s infinite;
+  }
+  
